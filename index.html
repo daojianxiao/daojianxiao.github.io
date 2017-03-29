@@ -7,7 +7,7 @@
         *{margin: 0;padding: 0;}
 
         .nav{
-            width:100%;
+            width:80%;
             height: 7.8rem;
             margin: 0 auto;
         }
@@ -32,7 +32,7 @@
             color: #663300;
         }
         .ad{
-            width:100%;
+            width:80%;
             height: 100%;
             background: #663300;
             margin: 0 auto;
@@ -43,7 +43,7 @@
             margin: 2.5rem 30rem;
         }
         .main{
-            width：100%;
+            width：80%;
             height: 100%;
             margin: 0 auto;
         }
@@ -99,7 +99,7 @@ resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
 recalc = function () {
 var clientWidth = docEl.clientWidth;
 if (!clientWidth) return;
-docEl.style.fontSize = 10 * (clientWidth / 750) + 'px';
+docEl.style.fontSize = 10 * (clientWidth / 960) + 'px';
 };
 
 
