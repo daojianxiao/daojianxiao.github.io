@@ -8,7 +8,7 @@
 
         .nav{
             width: 80%;
-            height: 125px;
+            height: 7.8rem;
             margin: 0 auto;
         }
         .nav-logo{
@@ -17,8 +17,8 @@
             margin-top: 0.625rem;
         }
         .logo{
-            width: 5em;
-            height: 5em;
+            width: 5rem;
+            height: 5rem;
         }
         .nav-item{
             float: right;
@@ -38,9 +38,9 @@
             margin: 0 auto;
         }
         .ad-img{
-            width: 7.5em;
-            height: 7.5em;
-            margin: 2.5em 30em;
+            width: 7.5rem;
+            height: 7.5rem;
+            margin: 2.5rem 30rem;
         }
         .main{
             width:80%;
@@ -60,18 +60,18 @@
         }
         .main-item-left{
             flex: 1;
-            line-height:1.875em;
+            line-height:1.875rem;
             font-family: 宋体;
         }
         .main-item-right{
-            margin-left: 1em;
-            width: 7.5em;
-            height: 7.5em;
+            margin-left: 1rem;
+            width: 7.5rem;
+            height: 7.5rem;
         }
         h2{
             color: #900b09;
-            margin-top: 1.25em;
-            margin-bottom: 1.25em;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
         }
         a{
             text-decoration: none;
@@ -82,11 +82,12 @@
             display: block;
         }
         .footer{
-            width: 80%;
+            width: 67.5rem;
             height: 100%;
             display: flex;
             justify-content: center;
             font-weight: bold;
+            margin: 2.5rem;
         }
     </style>
 </head>
@@ -98,7 +99,7 @@
         //总来的来就是监听当然窗口的变化，一旦有变化就需要重新设置根字体的值
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
         recalc = function() {
-            20*(docEl.clientwidth/640)+'px';//设置根字体大小
+            20*(docEl.clientwidth/320)+'px';//设置根字体大小
             docEl.style.fontSize = ?
         };
     //绑定浏览器缩放与加载时间
@@ -148,3 +149,4 @@
 </div>
 <div class="footer">© 2017 XuanMoDing. All Rights Reserved.</div>
 </body>
+</html>
