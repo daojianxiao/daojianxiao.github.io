@@ -99,7 +99,7 @@
         //总来的来就是监听当然窗口的变化，一旦有变化就需要重新设置根字体的值
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
         recalc = function() {
-            20*(docEl.clientwidth/320)+'px';//设置根字体大小
+            20*(docEl.clientwidth/1080)+'px';//设置根字体大小
             docEl.style.fontSize = ?
         };
     //绑定浏览器缩放与加载时间
